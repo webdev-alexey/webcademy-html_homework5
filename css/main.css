@@ -1,0 +1,107 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:wght@400..900&family=Noto+Sans:wght@100..900&display=swap");
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  line-height: normal;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Секция */
+
+.section {
+  padding: 90px 0;
+}
+
+.section-header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.section-cards {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.section-button {
+  text-align: center;
+}
+
+/* Заголовки */
+
+.title {
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Карточка */
+
+.card {
+  width: 270px;
+}
+
+.card-body {
+  padding: 20px 10px;
+  border: 1px solid #c1d1d4;
+  border-top: none;
+  text-align: center;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.card-description {
+  margin-bottom: 20px;
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a.card-link {
+  font-size: 20px;
+  color: #0277b9;
+  text-decoration: underline;
+}
+
+/* Кнопка */
+
+.button {
+  padding: 11px 39px 15px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  font-size: 22px;
+  text-transform: uppercase;
+
+  transition: background-color 0.2s ease-in, color 0.2s ease-in,
+    border 0.2s ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  background-color: #444;
+  border: 1px solid #444;
+}
